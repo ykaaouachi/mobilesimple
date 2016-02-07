@@ -5,14 +5,14 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         Nidae Team
     </author>
-    <content src="index.html" />
+    <content src="http://www.nidaelwatan.ma/presentation?lang=fr" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
+    <preference name="stay-in-webview" value="true" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
