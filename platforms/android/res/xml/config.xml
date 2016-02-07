@@ -5,15 +5,20 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <allow-intent href="market:*" />
     <name>Hello World</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>Nidae</name>
+    <description>description nidae project</description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Nidae Team
     </author>
-    <content src="index.html" />
+    <content src="http://www.nidaelwatan.ma/presentation?lang=fr" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
